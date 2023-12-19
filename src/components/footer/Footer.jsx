@@ -20,6 +20,7 @@ function Footer() {
     </div>
     <div>
     <h3>About</h3>
+    <p>Too</p>
     </div>
     
     </footer>
