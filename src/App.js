@@ -1,6 +1,6 @@
 import "./App.css";
 
-// imp[orting components]
+// [importing components]
 import HomePage from "./pages/homePage/HomePage";
 import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
