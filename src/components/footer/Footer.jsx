@@ -18,6 +18,7 @@ function Footer() {
     <li>Jorge Robayo</li>
     <li>Deandre Byrd</li>
     <li>Mouloud Chabouni</li>
+    <li>Nurredyn Ballout</li>
     </div>
     <div>
     <h2>About</h2>
