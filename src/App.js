@@ -1,4 +1,5 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
 // [importing components]
 import HomePage from "./pages/homePage/HomePage";
@@ -9,7 +10,10 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/" element={<HomePage />} /> */}
+      </Routes>
       <Footer />
     </div>
   );
