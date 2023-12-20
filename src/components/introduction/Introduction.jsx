@@ -101,11 +101,6 @@ function Introduction() {
           alt="diversity Image"
         />
       </div>
-      <h1 className="title-bottom-map">
-        Diverse Technological Talent On A National Scale
-      </h1>
-      <h3 className="titlebottom-paragraph">With 20 National Locations</h3>
-      <img className="perscholas-map" src="/perscholas-map.png" alt="Per Scholas Map" />
     </div>
   );
 }
