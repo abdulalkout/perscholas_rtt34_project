@@ -12,7 +12,7 @@ function Footer() {
     <p>Dylan Comeau</p>
     </div>
     <div>
-    <h2>Devolpers</h2>
+    <h2>The Devolpers</h2>
     <p>Abdul Alkout</p>
     <p>Jorge Robayo</p>
     <p>Deandre Byrd</p>
