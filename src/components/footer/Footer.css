@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Footer{
   position: absolute;
   bottom: 0;
@@ -10,3 +11,13 @@
   font-size: 16px;
   font-family: sans-serif;
   }
+=======
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: lightblue;
+  color: white;
+  margin-top: -21px;
+}
+>>>>>>> 9670606a445541047904807429969dc6154a1554
