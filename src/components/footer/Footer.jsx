@@ -7,16 +7,16 @@ function Footer() {
     <footer className="Footer">
     <div>
     <h2>PerScholas Instructors</h2>
-    <p>Teo Marcelo</p>
-    <p>Jordan Wofford</p>
-    <p>Dylan Comeau</p>
+    <li>Teo Marcelo</li>
+    <li>Jordan Wofford</li>
+    <li>Dylan Comeau</li>
     </div>
     <div>
     <h2>The Developers</h2>
-    <p>Abdul Alkout</p>
-    <p>Jorge Robayo</p>
-    <p>Deandre Byrd</p>
-    <p>Mouloud Chabouni</p>
+    <li>Abdul Alkout</li>
+    <li>Jorge Robayo</li>
+    <li>Deandre Byrd</li>
+    <li>Mouloud Chabouni</li>
     </div>
     <div>
     <h2>About</h2>
