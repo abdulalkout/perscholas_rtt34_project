@@ -11,7 +11,11 @@ function StoriesList() {
       <p className="storiesTitle">Students Stories</p>
       <div className="studentList">
         {developersStories.map((student, index) => {
-          return <img className="studentImg" src={student.img} />;
+          return (
+            <div key={index}>
+              <img className="studentImg" src={student.img} />
+            </div>
+          );
         })}
       </div>
     </div>
