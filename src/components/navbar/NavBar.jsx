@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,9 +17,14 @@ function NavBar() {
           alt="Logo"
         />
         <div className={`pageLinks ${isMobileMenuOpen ? "active" : ""}`}>
-          <a className="nav-links">Home</a>
+          <Link to="/" className="nav-links">
+            Home
+          </Link>
           <a className="nav-links">API's</a>
           <a className="nav-links">Stories</a>
+          <Link to="/about" className="nav-links">
+            About
+          </Link>
         </div>
 
         <div className="mobileMenuIcon" onClick={toggleMobileMenu}>
