@@ -12,17 +12,22 @@ function Footer() {
     <p>Dylan Comeau</p>
     </div>
     <div>
-    <h2>Devolpers</h2>
+    <h2>The Devolpers</h2>
     <p>Abdul Alkout</p>
     <p>Jorge Robayo</p>
     <p>Deandre Byrd</p>
     <p>Mouloud Chabouni</p>
     </div>
     <div>
-    <h3>About</h3>
-    <p>Too</p>
+    <h2>About</h2>
+    <p>
+      Perscholas empowers students by offering comprehensive 
+      <br></br>industry-aligned courses that cultivate <br></br>
+      practical skills and foster a collaborative <br></br>
+      learning environment, preparing graduates <br></br>
+      for success in the ever-evolving tech landscape.
+    </p>
     </div>
-    
     </footer>
   )
 }
