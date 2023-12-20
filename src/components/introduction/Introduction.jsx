@@ -1,17 +1,55 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Introduction.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { faChalkboardUser } from "@fortawesome/free-solid-svg-icons";
-import { faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
-//======== 
+import { faGraduationCap, faChalkboardUser, faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
 
 function Introduction() {
+  const containerRefs = {
+    section1: useRef(null),
+    section2: useRef(null),
+    section3: useRef(null),
+    section4: useRef(null),
+    section5: useRef(null),
+    section6: useRef(null),
+  };
+
+  const [activeSection, setActiveSection] = useState(1);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      
+      Object.values(containerRefs).forEach(ref => {
+        if (ref.current) {
+          ref.current.style.display = "none";
+        }
+      });
+
+      
+      if (containerRefs[`section${activeSection}`].current) {
+        containerRefs[`section${activeSection}`].current.style.display = "flex";
+      }
+
+      
+      setActiveSection(prevSection => (prevSection % 6) + 1);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [activeSection]);
+
+
+
   return (
     <div className="introduction-container">
-      <h1 className="Big-title-Introduction">About Per Scholas</h1>
+      <div className="section-Introduction-container" ref={containerRefs.section1}>
+        <h1>Welcome To Perscholas</h1>
+        <img
+          className="perscholas-logo"
+          src="https://sharecharlotte.org/sites/default/files/Logo-Horizontal-Light.png"
+          alt="perscholasLogo"
+        />
+      </div>
 
-      <div className="section1-Introduction-container">
+      <div className="section1-Introduction-container" ref={containerRefs.section2}>
         <h1 className="title1-Introduction">Unlocking Potential</h1>
         <p className="paragraph1-Introduction">
           At Per Scholas, we believe a thriving workforce starts with equitable
@@ -24,13 +62,13 @@ function Introduction() {
         </p>
       </div>
 
-      <div className="section2-Introduction-container">
+      <div className="section2-Introduction-container" ref={containerRefs.section3}>
         <div className="Section2-Content-title-image">
           <h1 className="title2-Introduction">
             Creating Opportunity for Careers in Tech
             <FontAwesomeIcon
               icon={faGraduationCap}
-              style={{ color: "#000000", marginLeft:'2%' }}
+              style={{ color: "#000000", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph2-Introduction">
@@ -48,7 +86,7 @@ function Introduction() {
         />
       </div>
 
-      <div className="section3-Introduction-container">
+      <div className="section3-Introduction-container" ref={containerRefs.section4}>
         <img
           className="section3-image-skill"
           src="https://images.unsplash.com/photo-1580894908361-967195033215?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -56,10 +94,10 @@ function Introduction() {
         />
         <div className="Section3-Content-title-image">
           <h1 className="title3-Introduction">
-            Closing the Tech Skills <br/> Divide
-            <FontAwesomeIcon 
-            icon={faChalkboardUser} 
-            style={{color: "#000000", marginLeft:'2%'}} 
+            Closing the Tech Skills Divide
+            <FontAwesomeIcon
+              icon={faChalkboardUser}
+              style={{ color: "#000000", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph3-Introduction">
@@ -73,13 +111,13 @@ function Introduction() {
         </div>
       </div>
 
-      <div className="section4-Introduction-container">
+      <div className="section4-Introduction-container" ref={containerRefs.section5}>
         <div className="Section2-Content-title-image">
           <h1 className="title4-Introduction">
             Achieving Diversity in the Tech Workforce
-            <FontAwesomeIcon 
-            icon={faUniversalAccess} 
-            style={{color: "#000000", marginLeft:'2%'}} 
+            <FontAwesomeIcon
+              icon={faUniversalAccess}
+              style={{ color: "#000000", marginLeft: "2%" }}
             />
           </h1>
           <p className="paragraph4-Introduction">
@@ -95,11 +133,18 @@ function Introduction() {
           alt="diversity Image"
         />
       </div>
-      <h1 className="title-bottom-map">
-        Diverse Technological Talent On A National Scale
-      </h1>
-      <h3 className="titlebottom-paragraph">With 20 National Locations</h3>
-      <img className="perscholas-map" src="/perscholas-map.png" alt="Per Scholas Map" />
+
+      <div className="section5-Introduction-container" ref={containerRefs.section6}>
+        <h1 className="title-bottom-map">
+          Diverse Technological Talent On A National Scale
+        </h1>
+        <h3 className="title-bottom-paragraph">With 20 National Locations</h3>
+        {/* <img
+          className="perscholas-map"
+          src="/perscholas-map.png"
+          alt="Per Scholas Map"
+        /> */}
+      </div>
     </div>
   );
 }

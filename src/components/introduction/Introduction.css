@@ -1,236 +1,240 @@
-
-
 .introduction-container {
-    margin: 2%;
-  }
+  display: flex;
+  height: 420px;
+  margin: 2%;
+}
 
-  .Big-title-Introduction{
-    text-align: center;
-    color: lightblue;
-  }
-
-
-
-
-
-  
-  .section1-Introduction-container{
-    display: flex;
-    flex-direction: column;
-    background-color: #f5f5f5; 
-    border-radius: 8px; 
-    padding: 20px;
-    margin-bottom: 2%;
-    margin-right: 30%;
-    margin-left: 30%;
-
-  }
-
-  .title1-Introduction {
-    text-align: center;
-  }
-
-  .paragraph1-Introduction{
-    display: flex;
-    align-content: flex-start;
-  }
-
-
-
-
-  .section2-Introduction-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 2%;
-    position: relative;
-  }
-
-
-.Section2-Content-title-image{
+.section-Introduction-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    background-color: #f5f5f5; 
-    border-radius: 8px; 
-    padding: 20px;
-    margin-right: 30%;
-    position: relative;
-}
-  
-
-  .title2-Introduction {
-    text-align: center;
-  }
-
-  .paragraph2-Introduction{
-    display: flex;
-  }
-
-  .section2-image-carrer{
-    width: 400px;
-    height: 250px;
-    border-radius: 5px;
-    margin-top: 2.6%;
-  }
-
-  .section2-Introduction-container::before {
-    display: flex;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 44%;
-    right: 35%;
-    height: 2px; 
-    background-color: red; 
-  }
-
-
-  
-
-
-
-  .section3-Introduction-container{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-content: center;
-    margin-bottom: 2%;
-    position: relative;
+    width: 100%;
   }
 
-
-
-.Section3-Content-title-image{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f5f5f5; 
-    border-radius: 8px; 
-    padding: 20px;
-    margin-left: 30%;
-    position: relative;
+.perscholas-logo {
+  height: 80px;
+  width: 580px;
+  align-items: center;
 }
 
+.section1-Introduction-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 2%;
+}
+
+.title1-Introduction {
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph1-Introduction {
+  display: flex;
+  align-content: flex-start;
+  margin-top: 10%;
+}
+.section1-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 84%;
+  right: 2%;
+  height: 2px;
+  background-color: red;
+}
+.section1-Introduction-container::after {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 2%;
+  right: 84%;
+  height: 2px;
+  background-color: red;
+}
+
+.section2-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section2-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 30%;
+  position: relative;
+}
 
 .title2-Introduction {
-    text-align: center;
-  }
+  text-align: center;
+  margin-top: 12%;
+}
 
-  .paragraph3-Introduction{
+.paragraph2-Introduction {
+  display: flex;
+  margin-bottom: 12%;
+}
+
+.section2-image-carrer {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 7%;
+}
+
+.section2-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  right: 35%;
+  height: 2px;
+  background-color: red;
+}
+
+.section3-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section3-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 30%;
+  position: relative;
+}
+
+.title3-Introduction {
+  display: flex;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.paragraph3-Introduction {
+  display: flex;
+  margin-bottom: 12%;
+}
+
+.section3-image-skill {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 7%;
+}
+
+.section3-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  right: 44%;
+  height: 2px;
+  background-color: red;
+}
+
+.section4-Introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.Section4-Content-title-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 30%;
+  position: relative;
+}
+
+.title4-Introduction {
     display: flex;
-  }
+  text-align: center;
+  margin-top: 12%;
+}
 
-  .section3-image-skill{
-    width: 400px;
-    height: 250px;
-    border-radius: 5px;
-    margin-top: 2%;
-  }
+.paragraph4-Introduction {
+  display: flex;
+  margin-bottom: 12%;
+}
 
-  .section3-Introduction-container::before {
-    display: flex;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    right: 44%;
-    height: 2px; 
-    background-color: red; 
-  }
+.section4-image-diversity {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+  margin-top: 7%;
+}
 
-
-
-
-
-  .section4-Introduction-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 2%;
-    position: relative;
-  }
+.section4-Introduction-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  right: 35%;
+  height: 2px;
+  background-color: red;
+}
 
 
-.Section4-Content-title-image{
+
+.section5-Introduction-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f5f5f5; 
-    border-radius: 8px; 
-    padding: 20px;
-    margin-right: 30%;
-    position: relative;
-}
-  
-
-  .title4-Introduction {
-    text-align: center;
-  }
-
-  .paragraph4-Introduction{
-    display: flex;
-  }
-
-  .section4-image-diversity{
-    width: 400px;
-    height: 250px;
-    border-radius: 5px;
-    margin-top: 2.6%;
-  }
-
-  .section4-Introduction-container::before {
-    display: flex;
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 44%;
-    right: 35%;
-    height: 2px; 
-    background-color: red; 
-  }
-
-
-  .title-bottom-map {
-    font-size: 36px;
-    margin-top: 2%;
-    text-align: center;
-  }
-  
-  .titlebottom-paragraph {
-    font-size: 22px;
-    margin-top: 2%;
-    text-align: center;
-  }
-  
-  .perscholas-map {
     width: 100%;
-    max-width: 100%;
-    height: 500px;
-  }
+    height: 100%;
+    background-image: url('/public/perscholas-map.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
- 
+.title-bottom-map {
+  font-size: 36px;
+  /* margin-top: 2%; */
+  text-align: center;
+}
 
+.title-bottom-paragraph {
+  font-size: 22px;
+  /* margin-top: 2%; */
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
+/* .perscholas-map {
+  width: 100%;
+  height: 300px;
+} */
