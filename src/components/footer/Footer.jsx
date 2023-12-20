@@ -10,6 +10,7 @@ function Footer() {
     <li>Teo Marcelo</li>
     <li>Jordan Wofford</li>
     <li>Dylan Comeau</li>
+    <li>Victor Vasquez</li>
     </div>
     <div>
     <h2>The Developers</h2>
