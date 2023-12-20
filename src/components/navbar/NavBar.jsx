@@ -23,7 +23,7 @@ function NavBar() {
           <a className="nav-links">API's</a>
           <a className="nav-links">Stories</a>
           <Link to="/about" className="nav-links">
-            about
+            About
           </Link>
         </div>
 
