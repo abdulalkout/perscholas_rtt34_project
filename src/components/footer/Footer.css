@@ -1,8 +1,12 @@
-.Footer {
+.Footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
+  justify-content: space-evenly;
   background-color: lightblue;
-  color: white;
-  margin-top: -21px;
-}
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  }
