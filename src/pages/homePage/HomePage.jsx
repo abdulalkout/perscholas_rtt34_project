@@ -4,6 +4,7 @@ import React from "react";
 import Introduction from "../../components/introduction/Introduction";
 import StoriesList from "../../components/stories/StoriesList";
 import StudentsApi from "../../components/studentsApi/StudentsApi";
+import DevelopersLearningComponent from "../../components/developersLearningComponent/DevelopersLearningComponent";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Introduction />
       <StoriesList />
       <StudentsApi />
+      <DevelopersLearningComponent />
     </div>
   );
 }
