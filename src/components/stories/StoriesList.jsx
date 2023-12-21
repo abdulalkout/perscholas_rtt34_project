@@ -13,7 +13,9 @@ function StoriesList() {
         {developersStories.map((student, index) => {
           return (
             <div key={index}>
-              <img className="studentImg" src={student.img} />
+              <a href={`/students/${index}`}>
+                <img className="studentImg" src={student.img} />
+              </a>
             </div>
           );
         })}

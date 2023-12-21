@@ -5,7 +5,9 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/homePage/HomePage";
 import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
+import StudentsPage from "./pages/studentsStoriesPage/StudentsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/students/:index" element={<StudentsPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
