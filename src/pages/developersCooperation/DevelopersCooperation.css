@@ -9,9 +9,9 @@
 }
 
 .cooperation-card {
-  height: 250px;
   width: 300px;
   background-color: rgba(93, 92, 92, 0.297);
+  padding-bottom: 20px;
 }
 
 .cooperation-card-img {
