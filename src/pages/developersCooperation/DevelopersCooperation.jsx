@@ -9,7 +9,7 @@ function DevelopersCooperation() {
       name: "abdul",
       discription: "css for button",
       code: "{color: `red`}",
-      links: ["sssssssssssss", "hdskhvh"],
+      links: ["https://www.example.com", "hdskhvh"],
       img: "https://i0.wp.com/www.cssscript.com/wp-content/uploads/2020/10/Beautiful-Material-Design-Button-UI-Template-In-Pure-CSS.png?fit=425%2C312&ssl=1",
     },
     {

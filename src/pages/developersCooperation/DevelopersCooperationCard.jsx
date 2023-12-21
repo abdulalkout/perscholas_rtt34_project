@@ -12,6 +12,7 @@ function DevelopersCooperationCard({ item }) {
         <p>{item.discription}</p>
         <p>Created by: {item.name}</p>
         <button
+          className="show-card-button"
           onClick={() => {
             setShowCard(!showCard);
           }}
@@ -22,14 +23,39 @@ function DevelopersCooperationCard({ item }) {
     );
   };
 
+  const openLinkInNewWindow = (url) => {
+    window.open(url, "_blank");
+  };
+
+  const showLinks = () => {
+    return (
+      <div>
+        {item.links.map((link, index) => {
+          return (
+            <div>
+              <a key={index} href={link}>
+                {link}
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
   const showContent = () => {
     return (
       <div>
-        <p>{item.code}</p>
-        {/* {if(item.links !== []){
-            console.log('d')
-        }} */}
-        <a href="">Link to recorse</a>
+        <p>{item.code ? item.code : null}</p>
+        <p>{item.links ? showLinks() : null}</p>
+        <button
+          className="show-card-button"
+          onClick={() => {
+            setShowCard(!showCard);
+          }}
+        >
+          Discription
+        </button>
       </div>
     );
   };
