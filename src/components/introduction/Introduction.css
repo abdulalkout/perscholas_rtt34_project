@@ -186,7 +186,7 @@
   height: 500px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .section1-Introduction-container,
   .Section2-Content-title-image,
   .Section3-Content-title-image,
@@ -224,25 +224,24 @@
   .section3-Introduction-container {
     flex-direction: column;
     align-items: center;
-  
   }
   .section4-Introduction-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .section2-image-carrer{
+  .section2-image-carrer {
     width: 100%;
     max-width: 100%;
     height: auto;
   }
-  .section3-image-skill{
+  .section3-image-skill {
     width: 100%;
     max-width: 100%;
     height: auto;
     margin-bottom: 2%;
   }
-  .section4-image-diversity{
+  .section4-image-diversity {
     width: 100%;
     max-width: 100%;
     height: auto;
