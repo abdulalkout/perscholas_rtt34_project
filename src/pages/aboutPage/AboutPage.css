@@ -1,41 +1,81 @@
 .aboutPage{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* -------------------[Max-View] */
 @media screen and (max-width: 3000px){
     .perscholas-map{
-        height: 600px;
-        width: 900px;
+        height: 850px;
+        width: 1200px;
+    }
+
+    .App-logo{
+        margin: -40px;
+    }
+
+    h1{
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .info{
+        display: inline-block;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 
+
+
 /* -------------------[Mid-View] */
 @media screen and (max-width: 1100px){
-    .perscholas-map{
-        height: 600px;
-        width: 900px;
+      .perscholas-map{
+        height: 700px;
+        width: 1000px;
+    }
+
+    .App-logo{
+        margin: -40px;
+    }
+
+    h1{
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .info{
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
+
+
 
 /* -------------------[Mobile View] */
 @media screen and (max-width: 800px){
     .perscholas-map{
         height: 400px;
-        width: 700px;
-    }
-
-    .info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 10px;
+        width: 550px;
     }
 
     .App-logo{
         margin: -50px;
+    }
+
+    .info{
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
