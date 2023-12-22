@@ -7,7 +7,9 @@ import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
 import StudentsPage from "./pages/studentsStoriesPage/StudentsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
+import StudentApiList from "./components/studentsApi/StudentApiList";
 import DevelopersCooperation from "./pages/developersCooperation/DevelopersCooperation";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/students/:index" element={<StudentsPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/StudentApiList" element={<StudentApiList />} />
         <Route path="/cooperation" element={<DevelopersCooperation />} />
       </Routes>
       <Footer />
