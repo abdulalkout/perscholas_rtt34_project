@@ -1,5 +1,11 @@
+
+
+/* ---------computer view------------ */
+
 @media only screen and (max-width: 3000px) {
 }
+
+/* Maybe nav bar non-sticky for mobile view since it will take a lot of the screen space */
 .sticky-nav {
   top: 0;
   left: 0;
@@ -27,9 +33,10 @@
 }
 
 .nav-links:hover {
-  color: black;
+  color: rgb(43, 55, 58);
   text-decoration: underline;
 }
+
 .pageLinks a {
   text-decoration: none;
   color: aliceblue;
@@ -46,7 +53,13 @@
   gap: 10px;
 }
 
-/* For mobile veiw */
+
+
+
+
+
+
+/* ---------For mobile veiw -------------*/
 @media only screen and (max-width: 600px) {
   .pageLinks {
     display: none;

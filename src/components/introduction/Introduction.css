@@ -1,3 +1,12 @@
+
+:root{
+  /* colors for intro page */
+  --tittle-color:rgb(43, 55, 58);
+
+  /* Font size variables */
+  --p-font-size: 18px;
+}
+
 .introduction-container {
   margin: 2%;
 }
@@ -20,11 +29,13 @@
 
 .title1-Introduction {
   text-align: center;
+  color: var(--tittle-color);
 }
 
 .paragraph1-Introduction {
   display: flex;
   align-content: flex-start;
+  font-size: var(--p-font-size);
 }
 
 .section2-Introduction-container {
@@ -50,10 +61,12 @@
 
 .title2-Introduction {
   text-align: center;
+  color: var(--tittle-color);
 }
 
 .paragraph2-Introduction {
   display: flex;
+  font-size: var(--p-font-size);
 }
 
 .section2-image-carrer {
@@ -95,12 +108,14 @@
   position: relative;
 }
 
-.title2-Introduction {
+.title3-Introduction {
   text-align: center;
+  color: var(--tittle-color);
 }
 
 .paragraph3-Introduction {
   display: flex;
+  font-size: var(--p-font-size);
 }
 
 .section3-image-skill {
@@ -144,10 +159,12 @@
 
 .title4-Introduction {
   text-align: center;
+  color: var(--tittle-color);
 }
 
 .paragraph4-Introduction {
   display: flex;
+  font-size: var(--p-font-size);
 }
 
 .section4-image-diversity {

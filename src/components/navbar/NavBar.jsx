@@ -18,12 +18,12 @@ function NavBar() {
         />
         <div className={`pageLinks ${isMobileMenuOpen ? "active" : ""}`}>
           <Link to="/" className="nav-links">
-            Home
+            <h3>Home</h3>
           </Link>
-          <a className="nav-links">API's</a>
-          <a className="nav-links">Stories</a>
+          <a className="nav-links"> <h3>API's</h3> </a>
+          <a className="nav-links"> <h3>Stories</h3> </a>
           <Link to="/about" className="nav-links">
-            About
+            <h3>About</h3>
           </Link>
         </div>
 
