@@ -28,6 +28,10 @@ function Footer() {
       practical skills and foster a collaborative <br></br>
       learning environment, preparing graduates <br></br>
       for success in the ever-evolving tech landscape.
+
+
+
+      
     </p>
     </div>
     </footer>

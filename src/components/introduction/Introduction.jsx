@@ -30,7 +30,7 @@ function Introduction() {
             Creating Opportunity for Careers in Tech
             <FontAwesomeIcon
               icon={faGraduationCap}
-              style={{ color: "#000000", marginLeft:'2%' }}
+              style={{ color: "rgb(43, 55, 58)", marginLeft:'2%' }}
             />
           </h1>
           <p className="paragraph2-Introduction">
@@ -58,7 +58,7 @@ function Introduction() {
             Closing the Tech Skills <br/> Divide
             <FontAwesomeIcon 
             icon={faChalkboardUser} 
-            style={{color: "#000000", marginLeft:'2%'}} 
+            style={{color: "rgb(43, 55, 58)", marginLeft:'2%'}} 
             />
           </h1>
           <p className="paragraph3-Introduction">
@@ -80,7 +80,7 @@ function Introduction() {
             Achieving Diversity in the Tech Workforce
             <FontAwesomeIcon 
             icon={faUniversalAccess} 
-            style={{color: "#000000", marginLeft:'2%'}} 
+            style={{color: "rgb(43, 55, 58)", marginLeft:'2%'}} 
             />
           </h1>
           <p className="paragraph4-Introduction">
