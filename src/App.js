@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import StudentsPage from "./pages/studentsStoriesPage/StudentsPage";
 import AboutPage from "./pages/aboutPage/AboutPage";
 import StudentApiList from "./components/studentsApi/StudentApiList";
+import DevelopersCooperation from "./pages/developersCooperation/DevelopersCooperation";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/students/:index" element={<StudentsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/StudentApiList" element={<StudentApiList />} />
+        <Route path="/cooperation" element={<DevelopersCooperation />} />
       </Routes>
       <Footer />
     </div>
