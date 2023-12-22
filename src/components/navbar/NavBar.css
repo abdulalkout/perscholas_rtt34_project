@@ -1,5 +1,3 @@
-
-
 /* ---------computer view------------ */
 
 @media only screen and (max-width: 3000px) {
@@ -54,13 +52,12 @@
 }
 
 
-
-
-
-
-
 /* ---------For mobile veiw -------------*/
 @media only screen and (max-width: 600px) {
+
+/* For mobile veiw */
+@media only screen and (max-width: 800px) {
+
   .pageLinks {
     display: none;
     flex-direction: column;
