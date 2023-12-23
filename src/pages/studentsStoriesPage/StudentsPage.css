@@ -1,0 +1,51 @@
+.meet-h1 {
+    text-align: center;
+    margin-left: 30%;
+}
+.project-h1 {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.part-n{
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph1{
+    display: flex;
+    align-content: flex-start;
+    margin-left: 30%;
+
+}
+
+.paragraph2{
+    display: flex;
+    align-content: flex-start;
+    margin-left: 25%;
+    margin-right: 12%;
+
+}
+
+.image-container {
+    width:40%;
+    height:auto;
+    margin-left: 5%;
+}
+
+.dev-image {
+    width: 20em;
+    height: 25em;
+}
+
+.project-container{
+    display: flex;
+    width:100%;
+    height:auto;
+
+}
+
+.project-list{
+    padding-right: 10%;
+    list-style: none;
+}
